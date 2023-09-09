@@ -14,6 +14,7 @@ export default function App() {
     <Provider store={store}>
       <div className="App">
         <ItemContainer cake />
+        <ItemContainer />
         <HooksCakeContainer />
         <CakeContainer />
         <IceCreamContainer />
